@@ -1,4 +1,7 @@
 import streamlit as st
+import os
+
+st.write(os.getcwd())
 
 with st.echo():
     colors = st.radio(
